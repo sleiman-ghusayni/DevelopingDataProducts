@@ -68,4 +68,4 @@ Instruction for shiny app
 - Press Submit button to see predicted Horsepower from either or both Models.
 
 - shiny app: https://sleiman-ghusayni.shinyapps.io/developingdataproducts/
-- source code: https://github.com/leiman-ghusayni/
+- source code: https://github.com/sleiman-ghusayni/DevelopingDataProducts/
