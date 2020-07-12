@@ -1,0 +1,40 @@
+
+Developing Data Products - Week 4 Course Project
+========================================================
+author: Sleiman Ghusayni
+date: July 12, 2020
+autosize: true
+width: 1600
+height: 900
+
+Introduction
+========================================================
+This project is the  final course project for Developing Data products course.
+
+-  UI and server part of Shiny included in this project
+- Documentation is created using Rstudio presenter
+
+
+Analysis of Miles per Gallon for various cars
+mtcars data set used for analysis
+
+Documentation
+========================================================
+mtcars dataset information 
+
+```{r mtcars, echo = TRUE}
+summary(mtcars)
+```
+
+Summary plot of the mtcars data 
+========================================================
+```{r}
+library(ggplot2)
+data("mtcars")
+qplot(mtcars$hp, mtcars$mpg, color = mtcars$cyl,geom =c("point","smooth"),method = "lm", data = mtcars)
+```
+
+Links
+========================================================
+- shiny app: https://sleiman-ghusayni.shinyapps.io/
+- source code: https://github.com/leiman-ghusayni/
